@@ -9,5 +9,5 @@ Fill in the project connection string in `.env`
 
 Run the script:
 ```
-uv run quickstart.py
+uv run src/quickstart.py
 ```

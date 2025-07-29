@@ -7,6 +7,7 @@ name = "azure-ai-agent-service-quickstart"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "azure-ai-agents" },
     { name = "azure-ai-projects" },
     { name = "azure-identity" },
     { name = "python-dotenv" },
@@ -14,28 +15,29 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "azure-ai-projects", specifier = ">=1.0.0b11" },
+    { name = "azure-ai-agents", specifier = ">=1.1.0b2" },
+    { name = "azure-ai-projects", specifier = ">=1.0.0b12" },
     { name = "azure-identity", specifier = ">=1.23.0" },
     { name = "python-dotenv", specifier = ">=1.1.0" },
 ]
 
 [[package]]
 name = "azure-ai-agents"
-version = "1.0.1"
+version = "1.1.0b4"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "azure-core" },
     { name = "isodate" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/13/ec/f9ad7e651ede0a1de61e8f45510f3a8fd6c1297e4e65375aa1197f0e5e1e/azure_ai_agents-1.0.1.tar.gz", hash = "sha256:71da960f2441531a9ae1a163fff1279b08c6f9ce04748a2cf52a3b220166ae8d", size = 298380 }
+sdist = { url = "https://files.pythonhosted.org/packages/30/8f/741c57202f4e4b6a7782f5a7ce7b18fd607696a154f5c9f2c716b207fa61/azure_ai_agents-1.1.0b4.tar.gz", hash = "sha256:126007543e3e9b9a4be017287e230e911fa126081f05b1c593e0d75702d01cd5", size = 331198 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/6f/c9/7e310ed1348c30653693b1789db51f63f58e2e88166b90aee96ac396f89e/azure_ai_agents-1.0.1-py3-none-any.whl", hash = "sha256:f3f4e68e18ffafbe4b30e91fa8931e427fdca42b90be6c32928d4f763ad0e3e7", size = 187279 },
+    { url = "https://files.pythonhosted.org/packages/3f/40/7a1bd4b98c7c16b863782b07c9c3e98a1b531068a3b5462c935a468db5ce/azure_ai_agents-1.1.0b4-py3-none-any.whl", hash = "sha256:2256cdddd6176ac3855c9b1fb7174e156d1a2f7538cfb6bd80a743e2b205d775", size = 200368 },
 ]
 
 [[package]]
 name = "azure-ai-projects"
-version = "1.0.0b11"
+version = "1.0.0b12"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "azure-ai-agents" },
@@ -44,9 +46,9 @@ dependencies = [
     { name = "isodate" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/01/4b/0a879eb66b5d9a08ab09292ff9a36a4e9c855b458d0e843b5e838fc6f6fd/azure_ai_projects-1.0.0b11.tar.gz", hash = "sha256:68a115c48cde7d5f9c29aee61c7fbf0b6de69aecbd1dc749b847a1e1348216b5", size = 133087 }
+sdist = { url = "https://files.pythonhosted.org/packages/a5/57/9a89c1978ec9ce29a3be454b83b66885982261762d7a436cad73c47c9225/azure_ai_projects-1.0.0b12.tar.gz", hash = "sha256:1a3784e4be6af3b0fc76e9e4a64158a38f6679fe3a1f8b9c33f12bc8914ae36c", size = 144358 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/3e/2d/5502377ecc07677365a1e86be64d8cb9959eb6e9b605fcc28f1f68d3777a/azure_ai_projects-1.0.0b11-py3-none-any.whl", hash = "sha256:3572f2989627e896ecfebe2fa7326d5b940f920cc581e98809b244af7a38cbf0", size = 130983 },
+    { url = "https://files.pythonhosted.org/packages/73/e4/50cd2c3bd5ab745e85a4a1bd591bf4343d6e3470580f1eadceed55fd57c0/azure_ai_projects-1.0.0b12-py3-none-any.whl", hash = "sha256:4e3d3ef275f7409ea8030e474626968848055d4b3717ff7ef03681da809c096f", size = 129783 },
 ]
 
 [[package]]
